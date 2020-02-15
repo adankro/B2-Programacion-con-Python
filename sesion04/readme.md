@@ -4,7 +4,7 @@
 ### Objetivos
 
 - Abrir, crear y editar archivos de textos con Python
-- Crear archivos CSV mediante las librería ídem
+- Crear archivos CSV mediante la librería ídem
 - Convertir diccionarios a JSON y viceversa, así como archivos
 - Conocer y atrapar excepciones en un script de Python
 

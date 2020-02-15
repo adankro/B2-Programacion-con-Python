@@ -11,3 +11,4 @@ archivo = open("hola.txt", 'r')
 
 archivo.readline()  
 archivo.readlines()
+archivo.close()  # Debemos cerrar el archivo

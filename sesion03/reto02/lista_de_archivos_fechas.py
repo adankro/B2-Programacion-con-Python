@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-# En este reto, los alumnos pueden usar las estruturas y la forma que deseen
+# En este reto, los alumnos pueden usar las estructuras y la forma que deseen
 # Para este caso, se ejemplificará con 2 listas
 files = os.listdir()
 sizes = [os.path.getsize(x) for x in files]

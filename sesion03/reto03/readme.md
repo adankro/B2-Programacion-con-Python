@@ -25,7 +25,7 @@ In [2]: archivos?
 Type:        module
 String form: <module 'archivos' from '/home/sergio/dev/python-clases/sesion03/reto03/archivos.py'>
 File:        ~/dev/python-clases/sesion03/reto03/archivos.py
-Docstring:   Móudlo para mostrar una lista de archivos, con fecha y tamaño
+Docstring:   Módulo para mostrar una lista de archivos, con fecha y tamaño
 
 In [3]: archivos.archivos?
 Signature: archivos.archivos(path='.')

@@ -2,7 +2,12 @@
 
 ### Decoradores
 
-Los decoradores son funciones que reciben otra función como parámetro, y devuelve otra función.
+De manera general, un decorador es el nombre utilizado para un patrón de diseño de software. Los decoradores alteran dinámicamente la funcionalidad de una función, método o clase sin tener que usar directamente subclases o cambiar el código fuente de la función que se está decorando.
+
+Un decorador de Python es un cambio específico a la sintaxis que nos permite alterar  funciones,  métodos y clases. Esto admite aplicaciones más legibles de DecoratorPattern pero también otros usos.
+
+Las funciones son, para fines prácticos, objetos, y como tales pueden ser pasadas como parámetros, reasignadas, devueltas por otras funciones e incluso definidas dentro de funciones, es decir, pueden ser anidadas.
+
 
 `mi_decorador.py`
 
@@ -24,7 +29,7 @@ In [8]: @mi_decorador
    ...:
 
 In [9]: mi_funcion(5)
-Llamada a la funcion mi_funcion
+Llamada a la función mi_funcion
 La función ha sido llamada
 Out[9]: 11
 ```
